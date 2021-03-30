@@ -7,17 +7,25 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 40%;
   margin-right: 25px;
+}
+.user-component__avatar-sm {
+  width: 60px;
+  height: 60px;
+}
+.user-component__avatar-lg {
+  width: 80px;
+  height: 80px;
 }
 
 .user-component__title {
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 7px;
 }
 
 .user-component__subtitle {
+  margin-top: 7px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4);
 }

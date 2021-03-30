@@ -6,8 +6,13 @@
   text-align: center;
   font-size: 16px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
 }
