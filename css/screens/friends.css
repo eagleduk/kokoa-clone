@@ -1,8 +1,6 @@
 #friends-display-link {
   display: block;
   width: 100%;
-  position: absolute;
-  top: 100px;
   background-color: #fafafa;
   padding: 15px 0px;
   text-align: center;

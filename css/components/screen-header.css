@@ -1,12 +1,11 @@
 .screen-header {
-  position: absolute;
   width: 100%;
   box-sizing: border-box;
-  top: 21px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px;
+  padding-top: 45px;
 }
 
 .screen-header__title {
