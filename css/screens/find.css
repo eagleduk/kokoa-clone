@@ -1,14 +1,12 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .find-icons__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .find-icons__icon i {
@@ -18,4 +16,23 @@
 .find-icons__icon span {
   margin-top: 10px;
   font-weight: 600;
+}
+
+.recommeded-friends {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommeded-friends h4 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.recommeded-friends span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
 }
