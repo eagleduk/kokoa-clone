@@ -19,24 +19,16 @@
 }
 
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: tomato;
-  color: white;
-  font-weight: 600;
-  position: absolute;
 }
 
 .nav__btn:nth-child(2) .nav__link .nav__notification {
-  width: 30px;
-  height: 30px;
+  position: absolute;
   left: 20px;
   top: -20px;
 }
 
 .nav__btn:last-child .nav__link .nav__notification {
+  position: absolute;
   width: 10px;
   height: 10px;
   left: 25px;
