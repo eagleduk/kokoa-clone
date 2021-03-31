@@ -50,6 +50,12 @@
 
 .open-post {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__column {
+  position: relative;
 }
 
 .open-post__column h4 {
@@ -92,4 +98,28 @@
 .open-post__status {
   text-transform: capitalize;
   color: #f559b7;
+}
+
+.open-post__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.open-post__good {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 15px;
+  right: 15px;
+  font-size: 14px;
+}
+
+.open-post__good span {
+  margin-left: 5px;
 }
