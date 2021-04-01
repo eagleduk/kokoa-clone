@@ -3,10 +3,18 @@
   justify-content: space-between;
 }
 
+.icon-row--more {
+  justify-content: flex-start;
+}
+
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.icon-row__icon--more {
+  margin-right: 65px;
 }
 
 .icon-row__icon i {
