@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats</title>
+    <title>Settings</title>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -26,38 +26,26 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-2x"></i></span>
-            <span><i class="far fa-comment-dots fa-2x"></i></span>
-            <span><i class="fas fa-music fa-2x"></i></span>
-            <span><i class="fas fa-cog fa-2x"></i></span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-chevron-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__title">
+                Chat
+            </span>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-2x"></i>
+            <i class="fas fa-bars fa-2x"></i>
         </div>
     </header>
 
+
+
     <main class="main-screen">
-        <a href="chat.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="https://static.scientificamerican.com/sciam/cache/file/92E141F8-36E4-4331-BB2EE42AC8674DD3_source.jpg"
-                        class="user-component__avatar user-component__avatar" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--blod">Kokoa Talk</h4>
-                        <h6 class="user-component__subtitle">
-                            Please check My Kokoa Account Info
-                        </h6>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <!-- 22 -->
-                    <span class="user-component__time">21:22</span>
-                    <span class="badge">1</span>
-                </div>
-            </div>
-        </a>
-
-
     </main>
 
 

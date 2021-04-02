@@ -1,6 +1,7 @@
 .setting-list__item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 22px;
@@ -11,4 +12,8 @@
   width: 25px;
   height: 25px;
   text-align: center;
+}
+
+.setting-list__column:last-child {
+  opacity: 0.4;
 }
