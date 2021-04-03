@@ -1,9 +1,16 @@
 .alt-header {
   padding: 25px;
-  padding-top: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 90;
+  background-color: inherit;
+  top: 10px;
 }
 
 .alt-header__title {
@@ -13,4 +20,17 @@
 
 .alt-header__column:last-child i {
   margin-left: 15px;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
 }

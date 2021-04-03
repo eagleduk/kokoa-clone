@@ -5,6 +5,9 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  z-index: 100;
+  background-color: inherit;
+  top: 0px;
 }
 
 .status-bar__column {
