@@ -53,8 +53,22 @@
 }
 
 .message-row__timestamp {
-  margin-left: 10px;
+  margin: 0px 10px;
   font-size: 12px;
   font-weight: 600;
   opacity: 0.8;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message-row__message {
+  background-color: var(--yellow);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+}
+
+.message-row--own .message-row__info {
+  flex-direction: row-reverse;
 }
