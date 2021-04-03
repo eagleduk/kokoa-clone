@@ -15,3 +15,46 @@
   padding: 10px 15px;
   border-radius: 20px;
 }
+
+.message-row {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  margin-right: 10px;
+}
+
+.message-row__from {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.message-row__info {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.message-row__message {
+  background-color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.message-row__timestamp {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.8;
+}
