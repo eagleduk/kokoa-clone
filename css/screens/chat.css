@@ -72,3 +72,69 @@
 .message-row--own .message-row__info {
   flex-direction: row-reverse;
 }
+
+.message-reply {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.message-reply__column:first-child {
+  width: 10%;
+}
+
+.message-reply__column:first-child i {
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.message-reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.message-reply__column input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: var(--main-border);
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.message-reply__column:last-child > i,
+.message-reply__column:last-child button {
+  position: absolute;
+  right: 50px;
+  top: 4px;
+}
+
+.message-reply__column:last-child > i {
+  top: 9px;
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+.message-reply__column:last-child button {
+  width: 40px;
+  height: 35px;
+  right: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--yellow);
+}
+
+.message-reply__column:last-child button:active,
+.message-reply__column:last-child button:focus {
+  outline: none;
+}
+
+.message-reply__column:last-child button i {
+  font-size: 20px;
+}
