@@ -30,6 +30,16 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+@keyframes hiddenSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 #splash-screen {
   background-color: var(--yellow);
   width: 100vw;
@@ -41,4 +51,6 @@
   align-items: center;
   justify-content: center;
   font-size: 130px;
+  animation: hiddenSplashScreen 0.2s ease-in-out forwards;
+  animation-delay: 2s;
 }
