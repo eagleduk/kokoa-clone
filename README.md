@@ -9,4 +9,4 @@
 - gh-pages 수정 (github desktop 기준)
 
 1. master branch 에서 commit & push 실행
-2. gh-pages branch 에서 branch 메뉴 - Update from master 실행
+2. gh-pages branch 에서 branch 메뉴 - Update from master 실행 & push
