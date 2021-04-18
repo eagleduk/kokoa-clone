@@ -28,3 +28,24 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
+.wapper {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .wapper {
+    background: var(--yellow);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-weight: 600;
+    z-index: 90;
+  }
+}
