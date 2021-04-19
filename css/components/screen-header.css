@@ -16,3 +16,16 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+@keyframes rollingIcon {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.more-header div span:last-child i:hover {
+  animation: rollingIcon 2s linear infinite;
+}
